@@ -1,0 +1,61 @@
+/* General styling for the look of the navigation menu */
+nav ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li 
+{
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Basic styling for the homepage section */
+#home 
+{
+    text-align: center;
+    padding: 50px;
+}
+
+/* Styling for the look of the About page including profile image */
+#about 
+{
+    text-align: left;
+    padding: 50px;
+}
+
+.profile-img 
+{
+    float: left;
+    margin-right: 40px;
+    width: 150px;
+    border-radius: 70%;
+}
+
+/* Styling for the contact form */
+form 
+{
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 500px;
+
+    margin: auto;
+}
+
+label,input,textarea 
+{
+    margin-bottom: 10px;
+}
+
+button {
+    align-self: flex-end;
+    padding: 10px 20px;
+
+    background-color: #56e1cc;
+    
+    color: white;
+    border: none;
+}
